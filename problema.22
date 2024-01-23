@@ -1,0 +1,17 @@
+class Libro:
+
+    def __init__(self, titulo, autor, año):
+        self.titulo = titulo
+        self.autor = autor
+        self.año = año
+
+    def imprimir_detalles(self):
+        print("Título:", self.titulo)
+        print("Autor:", self.autor)
+        print("Año:", self.año)
+
+
+
+libro = Libro("java", "julio martinez", 2000)
+
+libro.imprimir_detalles()
